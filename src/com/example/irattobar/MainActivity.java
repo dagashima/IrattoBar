@@ -7,7 +7,7 @@ import android.view.KeyEvent;
 import android.view.Window;
 import android.view.WindowManager;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity{
 	
 	private SensorManager sensorManager;
 	
@@ -25,6 +25,8 @@ public class MainActivity extends Activity {
 		_view = new GameSurfaceView(this);
 		setContentView(new GameSurfaceView(this));
 		AcSensor.Inst().onCreate(this);
+		
+		
 	}
 	
 	@Override

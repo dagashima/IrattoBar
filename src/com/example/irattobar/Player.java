@@ -13,7 +13,7 @@ public class Player extends Task{
 	private Vec _sensorVec = new Vec();
 	
 	public Player(){
-		_cir = new Circle(240,780,SIZE);
+		_cir = new Circle(100,750,SIZE);
 		_paint.setColor(Color.BLUE);
 		_paint.setAntiAlias(true);
 	}
